@@ -3,18 +3,17 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package btt2;
+import java.util.Scanner;
 
-/**
- *
- * @author Nguyen Tan Ba Bich
- */
 public class BTT2 {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Nhap ho va ten: ");
+        String hoTen = sc.nextLine();
+
+        System.out.println("Ho va ten cua ban la: " + hoTen);
+
+        sc.close();
     }
-    
 }
